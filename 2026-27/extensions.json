@@ -1,0 +1,57 @@
+{
+  // COM4012M - Programming for the Web
+  // Place this file at .vscode/extensions.json in your project root.
+  // When students open the project, VS Code will prompt them to install
+  // any missing extensions from this list automatically.
+
+  "recommendations": [
+
+    // ---------------------------------------------------------------
+    // ESSENTIAL — install from day one
+    // ---------------------------------------------------------------
+
+    // Live preview with hot reload — core tool from Lecture 1 onwards
+    "ritwickdey.liveserver",
+
+    // Code formatter — auto-formats HTML, CSS, JS, JSON on save
+    "esbenp.prettier-vscode",
+
+    // JavaScript linter — catches errors in real time from Lecture 4
+    "dbaeumer.vscode-eslint",
+
+    // HTML/CSS autocompletion for class and ID attributes
+    "ecmel.vscode-html-css",
+
+    // Renames paired HTML opening/closing tags simultaneously
+    "formulahendry.auto-rename-tag",
+
+    // Git history, blame annotations, and commit navigation
+    "eamodio.gitlens",
+
+    // PHP IntelliSense — autocompletion and error detection for Lectures 8–9
+    "bmewburn.vscode-intelephense-client",
+
+    // C# and ASP.NET support — required for Lecture 10
+    "ms-dotnettools.csdevkit",
+
+    // ---------------------------------------------------------------
+    // USEFUL — recommended but not required from day one
+    // ---------------------------------------------------------------
+
+    // Autocompletes file paths as you type — reduces broken src/href errors
+    "christian-kohler.path-intellisense",
+
+    // REST API client inside VS Code — useful for Lecture 7 (Fetch & APIs)
+    "rangav.vscode-thunder-client",
+
+    // Displays errors and warnings inline on the same line as the problem
+    "usernamehw.errorlens",
+
+    // Colour-codes indentation levels — helps with HTML nesting (Lecture 1+)
+    "oderwat.indent-rainbow",
+
+    // Colour-codes comments by type: TODOs, warnings, questions, highlights
+    "aaron-bond.better-comments"
+
+  ]
+}
